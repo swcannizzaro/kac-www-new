@@ -1,0 +1,25 @@
+{
+  "name": "kac-www-new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swcannizzaro/kac-www-new.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/swcannizzaro/kac-www-new/issues"
+  },
+  "homepage": "https://github.com/swcannizzaro/kac-www-new#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "normalize.css": "^8.0.1"
+  }
+}
