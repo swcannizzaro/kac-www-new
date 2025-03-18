@@ -1,0 +1,15 @@
+/* ========= SECTIONS ========= */
+.section {
+    padding: 4em 0;
+
+    &:nth-child(2) {
+        background-color: whitesmoke;
+    }
+}
+
+#showcase {
+    background-color: #fff;
+    background-image: url('../../images/collage1-bw.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}

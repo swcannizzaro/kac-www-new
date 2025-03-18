@@ -1,3 +1,7 @@
-body {
-    background-color: #f3ecde;
-}
+@import './base/_global.css';
+@import './base/_utilities.css';
+@import './base/_animations.css';
+@import './base/_layout.css';
+
+@import './modules/_header.css';
+@import './modules/_sections.css';

@@ -1,0 +1,16 @@
+/* ========= UTILITIES ========= */
+.visually-hidden {
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    position: absolute;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
