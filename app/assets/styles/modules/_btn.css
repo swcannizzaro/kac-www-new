@@ -1,0 +1,42 @@
+.btn {
+    display: inline-block;
+    padding: 1.17rem 2.7rem;
+    margin: 0 0 2rem 0;
+    border-radius: 0.45rem;
+    border: 5px double $secondary-color;
+    background-image: none;
+    background-clip: border-box;
+    -webkit-background-clip: border-box;
+    font-size: 1.8rem;
+    line-height: 1.1;
+    text-decoration: none;
+
+    transition: all 0.2s;
+
+    &:link,
+    &:visited {
+        box-shadow: $box-shadow-tight;
+        text-transform: uppercase;
+        background-color: $white-color;
+        color: $secondary-color;
+    }
+
+    &:hover {
+        transform: translateY(-0.2rem);
+        box-shadow: $box-shadow-loose;
+        background-color: $blue-color;
+        color: $white-color;
+        border-color: transparent;
+    }
+
+    &:active {
+        transform: translateY(-1px);
+        box-shadow: $box-shadow-tight;
+    }
+
+    .material-symbols-outlined {
+        font-size: 2rem;
+        margin-right: 0.36rem;
+        vertical-align: text-top;
+    }
+}

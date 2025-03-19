@@ -32,3 +32,15 @@ $heading-font-weight: 700;
 /* === LAYOUT === */
 $inner-container-max-width: 936px;
 $inner-container-width: 90%;
+
+/* ======== Borders/Border Radii ======== */
+$border-radius-default: 0.4rem;
+$border-bottom-header: 4px double $gold-color;
+$border-bottom-alt: 3px double rgba($gold-color, 0.56);
+$border-bottom-section-title: 4px double darken($blue-color, 8%);
+$border-top-footer: 4px double $gold-color;
+
+
+/* ======== Box Shadows ======== */
+$box-shadow-tight: 0 0.18rem 0.45rem rgba(99, 99, 99, 0.45);
+$box-shadow-loose: 0 0.63rem 1.8rem rgba(99, 99, 99, 0.63);
