@@ -1,0 +1,10 @@
+/* ========= ICONS ========= */
+/* https: //developers.google.com/fonts/docs/material_symbols#use_in_web */
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 700,
+        'GRAD' 0,
+        'opsz' 40
+}
