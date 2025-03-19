@@ -9,20 +9,55 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
-    font-family: "Libre Franklin", Helvetica, sans-serif;
-    color: #272727;
-    font-weight: 400;
+    box-sizing: border-box;
+    font-family: $body-font-family;
+    font-weight: $body-font-weight;
     font-size: 1.6rem;
     line-height: 1.53;
-    color: #272727;
-    background-color: #f3ecde;
-    box-sizing: border-box;
+    color: $text-default-color;
+    background-color: $body-background-color;
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $heading-font-family;
+    font-weight: $heading-font-weight;
+    margin: 0 0 1.44rem;
+    line-height: 1.17;
+}
+
+/* TODO: NEED INDIVIDUAL HEADING TAG FONT SIZES */
+
+p {
+    margin: 0 0 1.44rem;
+}
+
+b,
+strong {
+    font-weight: $heading-font-weight;
+}
+
+a:link:not(.btn),
+a:visited:not(.btn) {
+    color: $secondary-color;
+    text-decoration: none;
+}
+
+a:hover:not(.btn),
+a:active:not(.btn) {
+    color: $tertiary-color;
+    text-decoration: underline;
 }

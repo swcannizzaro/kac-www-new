@@ -1,6 +1,6 @@
 /* ========= LAYOUT ========= */
 .inner-container {
-    max-width: 918px;
-    width: 90%;
+    max-width: $inner-container-max-width;
+    width: $inner-container-width;
     margin: 0 auto;
 }

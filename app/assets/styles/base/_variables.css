@@ -1,1 +1,33 @@
 /* ========= VARIABLES ========= */
+
+/* === COLORS === */
+$gold-color: #edd163;
+$maroon-color: #820f05;
+$blue-color: #052f82;
+$light-beige-color: #f3ecde;
+
+$black-color: #272727;
+$deep-black-color: #090909;
+$white-color: #fff;
+$off-white-color: whitesmoke;
+
+$gray-color: #636363;
+$dark-gray-color: #363636;
+
+$primary-color: $gold-color;
+$secondary-color: $maroon-color;
+$tertiary-color: $blue-color;
+
+$body-background-color: $light-beige-color;
+$dark-background-color: $deep-black-color;
+$text-default-color: $black-color;
+
+/* === LAYOUT, ETC === */
+$inner-container-max-width: 936px;
+$inner-container-width: 90%;
+
+
+$body-font-family: "Libre Franklin", Helvetica, sans-serif;
+$body-font-weight: 500;
+$heading-font-family: "Libre Baskerville", Georgia, serif;
+$heading-font-weight: 700;

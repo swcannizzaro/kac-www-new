@@ -1,21 +1,32 @@
 /* ========= CALLOUT ========= */
 .callout {
     padding: 0.72em 0;
-    background-color: #090909;
-    color: whitesmoke;
-    border-bottom: 1px solid #edd163;
+    background-color: $dark-background-color;
+    color: $off-white-color;
+    border-bottom: 1px solid $primary-color;
+    line-height: 1.35;
 
     &__headline {
         display: inline-block;
-        margin-right: 0.72rem;
+        margin: 0 0.72rem 0 0;
         font-size: 2.16rem;
 
         .material-symbols-outlined {
-            vertical-align: text-bottom;
+            vertical-align: text-top;
         }
     }
 
     &__text {
         font-size: 1.44rem;
+    }
+
+    a:link,
+    a:visited {
+        color: $primary-color;
+    }
+
+    a:hover,
+    a:active {
+        color: $white-color;
     }
 }
