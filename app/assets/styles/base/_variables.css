@@ -1,16 +1,16 @@
 /* ========= VARIABLES ========= */
 
 /* === COLORS === */
-$gold-color: #edd163;
-$maroon-color: #820f05;
-$blue-color: #052f82;
-$light-beige-color: #f3ecde;
-$black-color: #272727;
-$deep-black-color: #090909;
-$white-color: #fff;
-$off-white-color: whitesmoke;
-$gray-color: #636363;
-$dark-gray-color: #363636;
+$gold-color: rgb(237, 209, 99);
+$maroon-color: rgb(130, 15, 5);
+$blue-color: rgb(5, 47, 130);
+$light-beige-color: rgb(243, 236, 222);
+$black-color: rgb(39, 39, 39);
+$deep-black-color: rgb(9, 9, 9);
+$white-color: rgb(255, 255, 255);
+$off-white-color: rgb(245, 245, 245);
+$gray-color: rgb(99, 99, 99);
+$dark-gray-color: rgb(54, 54, 54);
 
 $primary-color: $gold-color;
 $secondary-color: $maroon-color;

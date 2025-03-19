@@ -8,8 +8,7 @@
 }
 
 #showcase {
-    background-color: #fff;
-    background-image: url('../../images/collage1-bw.jpg');
+    background-image: linear-gradient(to right bottom, rgba(254, 254, 254, 1), rgba(254, 254, 254, .81)), url('./assets/images/background-main.jpg');
     background-attachment: fixed;
     background-size: cover;
 }

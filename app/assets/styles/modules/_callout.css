@@ -3,7 +3,8 @@
     padding: 0.72em 0;
     background-color: $dark-background-color;
     color: $text-light-color;
-    border-bottom: 1px solid $primary-color;
+    /* border-bottom: 1px solid $primary-color; */
+    border-bottom: 1px solid rgba(237, 209, 99, 0.63);
     line-height: 1.35;
 
     &__headline {
