@@ -14,6 +14,10 @@
         max-width: 72.9rem;
         margin: 0 auto;
 
+        a:link {
+            display: block;
+        }
+
         &--img {
             width: 100%;
         }
