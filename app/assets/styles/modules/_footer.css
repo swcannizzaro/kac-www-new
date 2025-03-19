@@ -1,6 +1,16 @@
 /* ========= FOOTER ========= */
 .footer {
-    padding: 4em 0;
-    background-color: #181818;
-    color: whitesmoke;
+    padding: 3.6em 0;
+    background-color: $black-color;
+    color: $text-light-color;
+
+    a:link,
+    a:visited {
+        color: $primary-color;
+    }
+
+    a:hover,
+    a:active {
+        color: $white-color;
+    }
 }

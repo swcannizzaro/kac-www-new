@@ -1,6 +1,12 @@
 /* ========= HEADER ========= */
 .header {
-    padding: 4em 0;
-    background-color: #181818;
-    color: whitesmoke;
+    padding: 3.6em 0;
+    background-color: $black-color;
+    color: $text-light-color;
+    text-align: center;
+
+    &__content-logo {
+        width: 100%;
+        max-width: 72rem;
+    }
 }
