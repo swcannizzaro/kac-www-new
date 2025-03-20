@@ -5,7 +5,7 @@ $gold-color: rgb(237, 209, 99);
 $maroon-color: rgb(130, 15, 5);
 $blue-color: rgb(5, 47, 130);
 $light-beige-color: rgb(243, 236, 222);
-$light-beigh-color-alt: rgb(249, 245, 239);
+$light-beige-color-alt: rgb(249, 245, 239);
 $black-color: rgb(39, 39, 39);
 $deep-black-color: rgb(9, 9, 9);
 $white-color: rgb(255, 255, 255);
@@ -17,7 +17,7 @@ $primary-color: $gold-color;
 $secondary-color: $maroon-color;
 $tertiary-color: $blue-color;
 
-$body-background-color: $light-beigh-color-alt;
+$body-background-color: $light-beige-color-alt;
 $dark-background-color: $deep-black-color;
 
 $text-default-color: $black-color;
