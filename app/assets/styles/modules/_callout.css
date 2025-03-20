@@ -8,6 +8,7 @@
         background-color: $dark-background-color;
         color: $text-light-color;
         line-height: 1.35;
+        text-align: center;
     }
 
     &__headline {
