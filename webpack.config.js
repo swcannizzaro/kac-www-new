@@ -14,12 +14,13 @@ module.exports = {
         path: path.resolve(__dirname, 'app')
     },
     devServer: {
+        watchFiles: ["app/**/*.html"],
         static: {
-            directory: path.join(__dirname, "app")
+            directory: path.join(__dirname, "app"),
+            watch: false
         },
         hot: true,
-        port: 3000,
-        liveReload: false
+        port: 3000
     },
     mode: 'development',
     module: {
