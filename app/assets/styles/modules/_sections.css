@@ -16,7 +16,15 @@
     }
 
     &__title-icon {
-        margin-right: 1.17rem;
+        margin-right: 0.63rem;
+
+        .material-symbols-outlined {
+            padding-top: 0.45rem;
+        }
+
+        .material-symbols-outlined--large {
+            font-size: 6.3rem;
+        }
     }
 
     &__title-text {
