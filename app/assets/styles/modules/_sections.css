@@ -1,6 +1,10 @@
 /* ========= SECTIONS ========= */
 .section {
-    padding: 3.6em 0;
+    padding: 1.8rem 0;
+
+    @mixin atMedium {
+        padding: 3.6rem 0;
+    }
 
     &:nth-child(2) {
         background-color: whitesmoke;
@@ -9,22 +13,37 @@
     &__title {
         display: flex;
         flex-flow: row nowrap;
-        align-items: center;
+        align-items: flex-start;
         padding: 0 0 0.9rem;
         margin: 0 0 3.6rem;
         border-bottom: 5px double $tertiary-color;
+
+        @mixin atMedium {
+            /*align-items: center;*/
+        }
     }
 
     &__title-icon {
-        margin-right: 0.63rem;
+        display: none;
+        margin-right: 0.27rem;
+
+        @mixin atSmall {
+            display: block;
+        }
+
+        @mixin atMedium {
+            margin-right: 0.63rem;
+        }
 
         .material-symbols-outlined {
-            padding-top: 0.45rem;
+            padding-top: 0;
             color: $tertiary-color;
         }
 
         .material-symbols-outlined--large {
-            font-size: 6.3rem;
+            @mixin atMedium {
+                font-size: 6.3rem;
+            }
         }
     }
 
@@ -33,11 +52,24 @@
         h2 {
             margin: 0 0 0.27rem;
             color: $tertiary-color;
-            font-size: 2.7rem;
+            font-size: 2.3rem;
+
+            @mixin atMedium {
+                font-size: 3.24rem;
+            }
         }
 
         p {
+            font-size: inherit;
             margin: 0;
+
+            @mixin atMedium {
+                font-size: 1.7rem;
+            }
+
+            @mixin atLarge {
+                font-size: 1.8rem;
+            }
         }
     }
 }

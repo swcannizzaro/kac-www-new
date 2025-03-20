@@ -1,13 +1,17 @@
 /* ========= FOOTER ========= */
 .footer {
-    padding: 3.6em 0;
+    padding: 0.9rem 0;
     background-color: $black-color;
     background-image: url('./assets/images/footer-bg.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: top;
     color: $text-light-color;
-    border-top: 5px double $primary-color;
+    border-top: 4px double $primary-color;
+
+    @mixin atMedium {
+        padding: 1.8rem 0;
+    }
 
     a:link,
     a:visited {
