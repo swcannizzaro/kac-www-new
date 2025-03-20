@@ -8,7 +8,7 @@
     background-position: top;
     color: $text-light-color;
     text-align: center;
-    border-bottom: 4px double $primary-color;
+    border-bottom: 5px double $primary-color;
 
     &__content-logo {
         max-width: 72.9rem;

@@ -7,7 +7,7 @@
     background-size: cover;
     background-position: top;
     color: $text-light-color;
-    border-top: 4px double $primary-color;
+    border-top: 5px double $primary-color;
 
     a:link,
     a:visited {
