@@ -1,32 +1,47 @@
 .navigation {
     background-color: rgba(9, 9, 9, 0.81);
-    padding: 0.9rem 0;
-    margin-top: 1.53rem;
+    margin-top: 0.9rem;
 
     @mixin atMedium {
         background-color: rgba(9, 9, 9, 0.45);
+        margin-top: 1.8rem;
     }
 
     &__list {
-
         list-style-type: none;
 
         li {
-            display: inline-block;
+            @mixin atMedium {
+                display: inline-block;
+            }
         }
 
         li:not(:last-child) {
-            margin-right: 4.5rem;
+            @mixin atMedium {
+                margin-right: 4.5rem;
+            }
         }
 
         li a:link,
         li a:visited {
+            padding: 0.9rem 0;
+            display: block;
             color: $primary-color;
+            border-top: 1px solid $primary-color;
+
+            @mixin atMedium {
+                border-top: 2px solid transparent;
+            }
         }
 
         li a:hover,
         li a:active {
             color: $white-color;
+
+            @mixin atMedium {
+                border-top-color: $primary-color;
+                text-decoration: none;
+            }
         }
     }
 }

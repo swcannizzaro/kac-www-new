@@ -1,5 +1,5 @@
 .header {
-    padding: 1.8em 0 0;
+    padding: 0.9em 0 0;
     background-color: $black-color;
     background-image: url('./assets/images/header-bg.jpg');
     background-attachment: fixed;
@@ -8,6 +8,10 @@
     color: $text-light-color;
     text-align: center;
     border-bottom: 5px double $primary-color;
+
+    @mixin atMedium {
+        padding: 1.8em 0 0;
+    }
 
     &__content-logo {
         max-width: 72.9rem;
@@ -25,10 +29,18 @@
     &__content-tagline {
         font-weight: 300;
         font-size: 1.35rem;
-        letter-spacing: 0.18rem;
+        letter-spacing: 0.09rem;
+        max-width: 100%;
+        margin: 0 auto;
 
         @mixin atMedium {
             font-size: 1.6rem;
+            letter-spacing: 0.18rem;
+            max-width: 72%;
+        }
+
+        @mixin atLarge {
+            max-width: 100%;
         }
     }
 }
