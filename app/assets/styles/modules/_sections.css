@@ -10,9 +10,9 @@
         display: flex;
         flex-flow: row nowrap;
         align-items: center;
-        padding: 0 0 1.17rem;
+        padding: 0 0 0.9rem;
         margin: 0 0 3.6rem;
-        border-bottom: 4px double $tertiary-color;
+        border-bottom: 5px double $tertiary-color;
     }
 
     &__title-icon {
