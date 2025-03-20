@@ -5,6 +5,7 @@ $gold-color: rgb(237, 209, 99);
 $maroon-color: rgb(130, 15, 5);
 $blue-color: rgb(5, 47, 130);
 $light-beige-color: rgb(243, 236, 222);
+$light-beigh-color-alt: rgb(249, 245, 239);
 $black-color: rgb(39, 39, 39);
 $deep-black-color: rgb(9, 9, 9);
 $white-color: rgb(255, 255, 255);
@@ -16,7 +17,7 @@ $primary-color: $gold-color;
 $secondary-color: $maroon-color;
 $tertiary-color: $blue-color;
 
-$body-background-color: $light-beige-color;
+$body-background-color: $light-beigh-color-alt;
 $dark-background-color: $deep-black-color;
 
 $text-default-color: $black-color;
@@ -34,12 +35,8 @@ $inner-container-max-width: 936px;
 $inner-container-width: 90%;
 
 /* ======== Borders/Border Radii ======== */
-$border-radius-default: 0.4rem;
-$border-bottom-header: 4px double $gold-color;
-$border-bottom-alt: 3px double rgba($gold-color, 0.56);
-$border-bottom-section-title: 4px double darken($blue-color, 8%);
-$border-top-footer: 4px double $gold-color;
-
+$border-radius-default: 0.45rem;
+$border-bottom-section-title: 4px double $tertiary-color;
 
 /* ======== Box Shadows ======== */
 $box-shadow-tight: 0 0.18rem 0.45rem rgba(99, 99, 99, 0.45);

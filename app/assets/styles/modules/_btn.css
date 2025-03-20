@@ -2,7 +2,7 @@
     display: inline-block;
     padding: 1.17rem 2.7rem;
     margin: 0 0 2rem 0;
-    border-radius: 0.45rem;
+    border-radius: $border-radius-default;
     border: 5px double $secondary-color;
     background-image: none;
     background-clip: border-box;
