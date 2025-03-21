@@ -25,13 +25,9 @@
 
     &__title-icon {
         display: none;
-        margin-right: 0.27rem;
-
-        @mixin atSmall {
-            display: block;
-        }
 
         @mixin atMedium {
+            display: block;
             margin-right: 0.63rem;
         }
 

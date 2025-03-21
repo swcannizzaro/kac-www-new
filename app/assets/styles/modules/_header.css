@@ -10,7 +10,7 @@
     border-bottom: 4px double $primary-color;
 
     &__content-logo {
-        max-width: 72.9rem;
+        max-width: 90rem;
         margin: 0 auto;
 
         a:link {
