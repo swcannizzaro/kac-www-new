@@ -6,7 +6,7 @@
         padding: 3.6rem 0;
     }
 
-    &:nth-child(2) {
+    &:nth-child(2n) {
         background-color: whitesmoke;
     }
 
@@ -70,7 +70,8 @@
     }
 }
 
-#showcase {
+#showcase,
+#contact {
     background-image: linear-gradient(to right bottom,
             rgba(255, 255, 255, 0.9),
             rgba(255, 255, 255, 0.99)),
@@ -79,4 +80,8 @@
     background-size: cover;
     border-top: 2px solid rgba(39, 39, 39, .08);
     border-bottom: 2px solid rgba(39, 39, 39, .08);
+}
+
+#contact {
+    border-bottom: none;
 }
