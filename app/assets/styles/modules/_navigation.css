@@ -3,6 +3,7 @@
     margin-top: 1.4rem;
 
     @mixin atMedium {
+        margin-top: 5.4rem;
         background-color: rgba(9, 9, 9, 0.45);
     }
 

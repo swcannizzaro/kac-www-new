@@ -10,7 +10,7 @@
     border-top: 4px double $primary-color;
 
     @mixin atMedium {
-        padding: 1.8rem 0;
+        padding: 6.3rem 0;
     }
 
     a:link,

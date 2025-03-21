@@ -9,6 +9,10 @@
     text-align: center;
     border-bottom: 4px double $primary-color;
 
+    @mixin atMedium {
+        padding-top: 6.3rem;
+    }
+
     &__content-logo {
         max-width: 90rem;
         margin: 0 auto;
