@@ -17,7 +17,7 @@ body {
     font-family: $body-font-family;
     font-weight: $body-font-weight;
     font-size: 1.6rem;
-    line-height: 1.53;
+    line-height: 1.5;
     color: $text-default-color;
     background-color: $body-background-color;
 }
@@ -36,13 +36,13 @@ h6 {
     font-family: $heading-font-family;
     font-weight: $heading-font-weight;
     margin: 0 0 1.44rem;
-    line-height: 1.17;
+    line-height: 1.2;
 }
 
 /* TODO: NEED INDIVIDUAL HEADING TAG FONT SIZES */
 
 p {
-    margin: 0 0 1.44rem;
+    margin: 0 0 1.4rem;
 }
 
 b,

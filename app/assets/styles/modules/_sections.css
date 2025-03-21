@@ -28,7 +28,7 @@
 
         @mixin atMedium {
             display: block;
-            margin-right: 0.63rem;
+            margin-right: 0.6rem;
         }
 
         .material-symbols-outlined {
@@ -46,12 +46,12 @@
     &__title-text {
 
         h2 {
-            margin: 0 0 0.27rem;
+            margin: 0 0 0.3rem;
             color: $tertiary-color;
             font-size: 2.3rem;
 
             @mixin atMedium {
-                font-size: 3.24rem;
+                font-size: 3.2rem;
             }
         }
 
