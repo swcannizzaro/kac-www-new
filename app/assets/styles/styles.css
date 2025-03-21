@@ -1,12 +1,11 @@
 @import './base/_variables.css';
 @import './base/_mixins.css';
-
 @import './base/_global.css';
 @import './base/_utilities.css';
 @import './base/_animations.css';
-@import './base/_icons.css';
-@import './base/_layout.css';
 
+@import './modules/_icons.css';
+@import './modules/_layout.css';
 @import './modules/_btn.css';
 @import './modules/_callout.css';
 @import './modules/_header.css';
