@@ -1,6 +1,6 @@
 .navigation {
     background-color: rgba(9, 9, 9, 0.81);
-    margin-top: 1.44rem;
+    margin-top: 1.4rem;
 
     @mixin atMedium {
         background-color: rgba(9, 9, 9, 0.45);

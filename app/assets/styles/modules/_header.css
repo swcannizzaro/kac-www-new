@@ -24,14 +24,14 @@
 
     &__content-tagline {
         font-weight: 300;
-        font-size: 1.35rem;
-        letter-spacing: 0.09rem;
+        font-size: 1.4rem;
+        letter-spacing: 0.1rem;
         max-width: 100%;
         margin: 0 auto;
 
         @mixin atMedium {
             font-size: 1.6rem;
-            letter-spacing: 0.18rem;
+            letter-spacing: 0.2rem;
             max-width: 72%;
         }
 

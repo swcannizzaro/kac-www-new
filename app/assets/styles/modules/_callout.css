@@ -4,17 +4,17 @@
     @mixin atMedium {
         display: block;
         border-bottom: 1px solid rgba(237, 209, 99, 0.63);
-        padding: 0.72em 0;
+        padding: 0.7rem 0;
         background-color: $dark-background-color;
         color: $text-light-color;
-        line-height: 1.35;
+        line-height: 1.3;
         text-align: center;
     }
 
     &__headline {
         display: inline-block;
-        margin: 0 0.72rem 0 0;
-        font-size: 2.16rem;
+        margin: 0 0.7rem 0 0;
+        font-size: 2.2rem;
 
         .material-symbols-outlined {
             vertical-align: text-top;
@@ -22,8 +22,8 @@
     }
 
     &__text {
-        font-size: 1.44rem;
-        line-height: 1.44;
+        font-size: 1.4rem;
+        line-height: 1.4;
     }
 
     a:link,
