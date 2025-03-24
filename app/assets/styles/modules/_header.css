@@ -8,6 +8,7 @@
     color: $text-light-color;
     text-align: center;
     border-bottom: 4px double $primary-color;
+    backface-visibility: hidden;
 
     @mixin atMedium {
         padding-top: 6.3rem;
@@ -16,6 +17,10 @@
     &__content-logo {
         max-width: 90rem;
         margin: 0 auto;
+
+        animation-name: fadeInLeft;
+        animation-duration: 0.54s;
+        animation-timing-function: ease-out;
 
         a:link {
             display: block;
@@ -32,6 +37,10 @@
         letter-spacing: 0.1rem;
         max-width: 100%;
         margin: 0 auto;
+
+        animation-name: fadeInRight;
+        animation-duration: 0.54s;
+        animation-timing-function: ease-out;
 
         @mixin atMedium {
             font-size: 1.6rem;

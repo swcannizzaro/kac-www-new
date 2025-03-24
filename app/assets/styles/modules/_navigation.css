@@ -1,6 +1,7 @@
 .navigation {
     background-color: rgba(9, 9, 9, 0.81);
     margin-top: 1.4rem;
+    backface-visibility: hidden;
 
     @mixin atMedium {
         margin-top: 5.4rem;
@@ -13,6 +14,9 @@
         li {
             @mixin atMedium {
                 display: inline-block;
+                animation-name: fadeInBottom;
+                animation-duration: 0.54s;
+                animation-timing-function: ease-out;
             }
         }
 
