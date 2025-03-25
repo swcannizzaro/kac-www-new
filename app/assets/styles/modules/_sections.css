@@ -45,6 +45,8 @@
     }
 
     &__title-text {
+        position: relative;
+        width: 100%;
 
         h2 {
             margin: 0 0 0.3rem;
@@ -67,6 +69,20 @@
             @mixin atLarge {
                 font-size: 1.8rem;
             }
+        }
+    }
+
+    &__title-up {
+        position: absolute;
+        right: 0;
+        top: 0;
+
+        a:link {
+            display: inline-block;
+        }
+
+        .material-symbols-outlined {
+            font-size: 4rem;
         }
     }
 }
