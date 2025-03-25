@@ -15,11 +15,12 @@
         flex-flow: row nowrap;
         align-items: flex-start;
         padding: 0 0 0.9rem;
-        margin: 0 0 3.6rem;
+        margin: 0 0 2.7rem;
         border-bottom: 5px double $tertiary-color;
 
         @mixin atMedium {
             /*align-items: center;*/
+            margin-bottom: 3.6rem;
         }
     }
 

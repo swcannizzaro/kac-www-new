@@ -41,3 +41,4 @@ $border-bottom-section-title: 4px double $tertiary-color;
 /* ======== Box Shadows ======== */
 $box-shadow-tight: 0 0.18rem 0.45rem rgba(99, 99, 99, 0.45);
 $box-shadow-loose: 0 0.63rem 1.8rem rgba(99, 99, 99, 0.63);
+$box-shadow-featured: 0 8px 16px rgba(22, 22, 22, .12);
