@@ -50,4 +50,33 @@
         font-size: 2.3rem;
     }
 
+    &__content {
+        display: flex;
+        flex-flow: column nowrap;
+        margin-top: 1.8rem;
+
+        @mixin atMedium {
+            flex-flow: row nowrap;
+        }
+
+        &-text {
+            width: 100%;
+
+            @mixin atMedium {
+                width: 64%;
+                margin-right: 2rem;
+            }
+
+        }
+
+        &-aside {
+            display: none;
+
+            @mixin atMedium {
+                display: block;
+                width: calc((100% - 64%) - 2rem);
+            }
+        }
+    }
+
 }
