@@ -8,7 +8,7 @@
 
         @mixin atMedium {
             flex-flow: row nowrap;
-            margin-bottom: 4.5rem;
+            margin-bottom: 5.4rem;
         }
     }
 
@@ -79,7 +79,12 @@
         }
 
         &-text blockquote {
+            font-size: 1.6rem;
             box-shadow: $box-shadow-featured;
+
+            @mixin atMedium {
+                font-size: 2.2rem;
+            }
         }
 
         &-text-title {
@@ -108,6 +113,7 @@
             }
 
             figcaption {
+                font-size: 1.4rem;
                 background-color: $white-color;
                 padding: 0.9rem;
                 margin: -0.7rem 0 0;
