@@ -71,20 +71,6 @@
             }
         }
     }
-
-    &__title-up {
-        position: absolute;
-        right: 0;
-        top: 0;
-
-        a:link {
-            display: inline-block;
-        }
-
-        .material-symbols-outlined {
-            font-size: 4rem;
-        }
-    }
 }
 
 #showcase,
