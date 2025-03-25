@@ -4,10 +4,11 @@
         flex-flow: column nowrap;
         justify-content: space-between;
         align-items: stretch;
+        margin: 0;
 
         @mixin atMedium {
             flex-flow: row nowrap;
-
+            margin-bottom: 4.5rem;
         }
     }
 
@@ -23,7 +24,7 @@
         transition: all .2s ease-in;
 
         @mixin atMedium {
-            margin-bottom: 2rem;
+            margin-bottom: 0;
             width: 31%;
             padding: 2.7rem;
         }
@@ -53,7 +54,6 @@
     &__content {
         display: flex;
         flex-flow: column nowrap;
-        margin-top: 1.8rem;
 
         @mixin atMedium {
             flex-flow: row nowrap;
@@ -63,10 +63,31 @@
             width: 100%;
 
             @mixin atMedium {
-                width: 64%;
-                margin-right: 2rem;
+                width: 69%;
+                margin-right: 4.5rem;
             }
 
+        }
+
+        &-text p {
+            max-width: 72rem;
+
+            @mixin atMedium {
+                font-size: 1.8rem;
+                line-height: 1.9;
+            }
+        }
+
+        &-text blockquote {
+            box-shadow: $box-shadow-featured;
+        }
+
+        &-text-title {
+            font-size: 2.3rem;
+
+            @mixin atMedium {
+                font-size: 3.6rem;
+            }
         }
 
         &-aside {
@@ -74,9 +95,26 @@
 
             @mixin atMedium {
                 display: block;
-                width: calc((100% - 64%) - 2rem);
+                width: calc((100% - 69%) - 4.5rem);
+            }
+        }
+
+        &-img {
+            margin-bottom: 1.3rem;
+
+            @mixin atMedium {
+                box-shadow: $box-shadow-featured;
+                margin-bottom: 2.7rem;
+            }
+
+            figcaption {
+                background-color: $white-color;
+                padding: 0.9rem;
+                margin: -0.7rem 0 0;
+                text-align: center;
             }
         }
     }
+
 
 }

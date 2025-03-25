@@ -50,6 +50,17 @@ strong {
     font-weight: $heading-font-weight;
 }
 
+blockquote {
+    font-size: 1.8rem;
+    line-height: 1.7;
+    font-style: italic;
+    margin: 0 0 2rem;
+    border-left: 4px solid $tertiary-color;
+    padding: 2rem;
+    background-color: $white-color;
+    max-width: 72rem;
+}
+
 a:link:not(.btn),
 a:visited:not(.btn) {
     color: $secondary-color;

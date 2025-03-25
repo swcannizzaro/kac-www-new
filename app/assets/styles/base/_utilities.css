@@ -9,6 +9,14 @@
     position: absolute;
 }
 
+.hidden-on-medium--block {
+    display: block;
+
+    @mixin atMedium {
+        display: none;
+    }
+}
+
 .clearfix::after {
     content: '';
     clear: both;

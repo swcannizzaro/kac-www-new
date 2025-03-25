@@ -1,6 +1,6 @@
 /* ========= FOOTER ========= */
 .footer {
-    padding: 0.9rem 0;
+    padding: 2rem 0 4rem;
     background-color: $black-color;
     background-image: url('./assets/images/footer-bg.jpg');
     background-attachment: fixed;
