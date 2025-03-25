@@ -24,8 +24,13 @@
 
         @mixin atMedium {
             margin-bottom: 2rem;
-            width: 30%;
-            padding: 1.8rem;
+            width: 31%;
+            padding: 2.7rem;
+        }
+
+        &:hover {
+            transform: translateY(-.64rem) scale(1.04);
+            box-shadow: $box-shadow-featured--hover;
         }
     }
 
