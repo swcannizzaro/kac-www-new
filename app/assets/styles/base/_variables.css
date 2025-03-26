@@ -35,11 +35,11 @@ $inner-container-max-width: 110.7rem;
 $inner-container-width: 90%;
 
 /* ======== Borders/Border Radii ======== */
-$border-radius-default: 0.45rem;
+$border-radius-default: 0.4rem;
 $border-bottom-section-title: 4px double $tertiary-color;
 
 /* ======== Box Shadows ======== */
 $box-shadow-tight: 0 0.18rem 0.45rem rgba(99, 99, 99, 0.45);
-$box-shadow-loose: 0 0.63rem 1.8rem rgba(99, 99, 99, 0.63);
-$box-shadow-featured: 0 8px 16px rgba(22, 22, 22, .12);
-$box-shadow-featured--hover: 0 16px 80px rgba(22, 22, 22, .08);
+$box-shadow-loose: 0 0.63rem 1.8rem rgba(99, 99, 99, 0.32);
+$box-shadow-featured: 0 0.8rem 1.6rem rgba(22, 22, 22, .12);
+$box-shadow-featured--hover: 0 1.6rem 8rem rgba(22, 22, 22, .08);

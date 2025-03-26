@@ -1,0 +1,42 @@
+.showcase {
+    &__group .an-item-wrap {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+
+        @mixin atMedium {
+            flex-flow: row nowrap;
+        }
+    }
+
+    &__group .an-item-wrap .item {
+        list-style: none;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.81);
+        padding: 1.4rem;
+        border-radius: $border-radius-default;
+        box-shadow: $box-shadow-featured;
+
+        @mixin atMedium {
+            width: 31%;
+            padding: 2.7rem;
+        }
+
+        &:not(:last-of-type) {
+            margin-bottom: 3.6rem;
+
+            @mixin atMedium {
+                margin-bottom: 0;
+            }
+        }
+
+        .title {
+            margin-bottom: 1.6rem;
+        }
+
+        .format {
+            display: none;
+        }
+    }
+}
