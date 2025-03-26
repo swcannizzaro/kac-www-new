@@ -5,7 +5,7 @@
 
     @mixin atMedium {
         margin-top: 5.4rem;
-        background-color: rgba(9, 9, 9, 0.45);
+        background-color: rgba(9, 9, 9, 0.27);
     }
 
     &__list {
@@ -30,11 +30,16 @@
         li a:visited {
             padding: 0.9rem 0;
             display: block;
+            letter-spacing: initial;
             color: $primary-color;
             border-top: 1px solid $primary-color;
 
             @mixin atMedium {
                 border-top: 2px solid transparent;
+            }
+
+            @mixin atLarge {
+                font-size: 1.8rem;
             }
         }
 
