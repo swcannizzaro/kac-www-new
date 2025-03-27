@@ -1,0 +1,20 @@
+.contact {
+    &__content {
+        text-align: center;
+    }
+
+    &__content-headline {
+        line-height: 1.5;
+
+        @mixin atMedium {
+            font-size: 2rem;
+            line-height: 1.6;
+            padding: 0;
+        }
+
+        @mixin atLarge {
+            font-size: 2.3rem;
+            padding: 0 8.1rem;
+        }
+    }
+}
