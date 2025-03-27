@@ -1,0 +1,59 @@
+.collect {
+
+    &__content {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+
+        @mixin atMedium {
+            flex-flow: row nowrap;
+        }
+    }
+
+    &__content-quote-left,
+    &__content-quote-right {
+        display: none;
+
+        @mixin atMedium {
+            display: block;
+            width: 23%;
+        }
+    }
+
+    &__content-cta {
+        width: 100%;
+        text-align: center;
+
+        @mixin atMedium {
+            width: 45%;
+        }
+    }
+
+    &__content-cta-tagline {
+        margin: 1.4rem 0 0;
+        font-size: 1.8rem;
+        line-height: 1.6;
+    }
+
+    &__content-quote-list {
+        list-style: none;
+
+        li {
+            font-size: 1.3rem;
+            padding: 0.9rem;
+            color: $gray-color;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-bottom: 3px double $light-gray-color;
+            box-shadow: $box-shadow-featured;
+
+            @mixin atLarge {
+                font-size: 1.44rem;
+                padding: 1.4rem;
+            }
+        }
+
+        li:not(:last-of-type) {
+            margin-bottom: 2.3rem;
+        }
+    }
+}

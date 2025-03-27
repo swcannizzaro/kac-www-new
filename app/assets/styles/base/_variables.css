@@ -12,6 +12,7 @@ $white-color: rgb(255, 255, 255);
 $off-white-color: rgb(245, 245, 245);
 $gray-color: rgb(99, 99, 99);
 $dark-gray-color: rgb(54, 54, 54);
+$light-gray-color: rgb(180, 180, 180);
 
 $primary-color: $gold-color;
 $secondary-color: $maroon-color;
