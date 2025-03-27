@@ -2,7 +2,7 @@
     &__group .an-item-wrap {
         display: flex;
         flex-flow: column nowrap;
-        justify-content: space-between;
+        justify-content: center;
         align-items: stretch;
 
         @mixin atMedium {
@@ -20,14 +20,16 @@
 
         @mixin atMedium {
             width: 31%;
-            padding: 2.7rem;
+            padding: 2rem;
         }
 
         &:not(:last-of-type) {
             margin-bottom: 3.6rem;
+            margin-right: 0;
 
             @mixin atMedium {
                 margin-bottom: 0;
+                margin-right: 3rem;
             }
         }
 
