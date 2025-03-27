@@ -1,6 +1,6 @@
 /* ========= FOOTER ========= */
 .footer {
-    padding: 2rem 0 4rem;
+    padding: 3.6rem 0;
     background-color: $black-color;
     background-image: url('./assets/images/footer-bg.jpg');
     background-attachment: fixed;
@@ -21,5 +21,29 @@
     a:hover,
     a:active {
         color: $white-color;
+    }
+
+    &__content-crypto {
+        margin-bottom: 3rem;
+    }
+
+    &__content-social {
+        list-style: none;
+        margin-bottom: 3rem;
+
+        li {
+            @mixin atMedium {
+                display: inline-block;
+            }
+
+            &:not(:last-of-type) {
+                margin-bottom: 1.2rem;
+
+                @mixin atMedium {
+                    margin-bottom: 0.8rem;
+                    margin-right: 1.8rem;
+                }
+            }
+        }
     }
 }
