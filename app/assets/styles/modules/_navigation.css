@@ -2,8 +2,10 @@
     background-color: rgba(9, 9, 9, 0.81);
     margin-top: 1.4rem;
     backface-visibility: hidden;
+    display: none;
 
     @mixin atMedium {
+        display: block;
         margin-top: 5.4rem;
         background-color: rgba(9, 9, 9, 0.27);
     }
