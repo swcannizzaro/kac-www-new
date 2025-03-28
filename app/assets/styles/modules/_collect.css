@@ -35,6 +35,32 @@
         line-height: 1.6;
     }
 
+    &__content-privacy {
+        margin-top: 3rem;
+    }
+
+    &__content-privacy-headline {
+        margin-bottom: 0.3rem;
+        color: $tertiary-color;
+
+        .material-symbols-outlined {
+            vertical-align: bottom;
+        }
+    }
+
+    &__content-privacy-tagline {
+        font-size: 1.35rem;
+        padding: 0 1.5rem;
+
+        @mixin atMedium {
+            padding: 0;
+        }
+
+        @mixin atLarge {
+            padding: 0 4rem;
+        }
+    }
+
     &__content-quote-list {
         list-style: none;
 
