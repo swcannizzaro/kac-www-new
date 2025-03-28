@@ -1,5 +1,5 @@
 .header {
-    padding: 6.3rem 0 0;
+    padding: 7rem 0 0;
     background-color: $black-color;
     background-image: url('./assets/images/header-bg.jpg');
     background-attachment: fixed;
@@ -21,9 +21,11 @@
 
     &__nav-menu-icon {
         position: absolute;
-        top: 1rem;
+        top: 1.3rem;
         right: 2rem;
-        line-height: 1;
+        width: 4rem;
+        height: 4rem;
+        background-color: $primary-color;
         cursor: pointer;
 
         @mixin atMedium {
