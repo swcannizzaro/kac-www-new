@@ -15,11 +15,16 @@
         padding: 6.3rem 0 0;
     }
 
+    &__content {
+        backface-visibility: hidden;
+    }
+
     &__nav-menu-icon {
         position: absolute;
         top: 1rem;
         right: 2rem;
         line-height: 1;
+        cursor: pointer;
 
         @mixin atMedium {
             display: none;

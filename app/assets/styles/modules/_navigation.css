@@ -3,6 +3,13 @@
     margin-top: 1.4rem;
     backface-visibility: hidden;
     display: none;
+    animation-name: fadeIn;
+    animation-duration: 0.54s;
+    animation-timing-function: ease-out;
+
+    &--is-visible {
+        display: block;
+    }
 
     @mixin atMedium {
         display: block;

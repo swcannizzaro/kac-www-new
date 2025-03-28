@@ -1,15 +1,17 @@
 class MobileMenu {
     constructor() {
         this.menuIcon = document.querySelector('.header__nav-menu-icon');
+        this.navMenu = document.querySelector('.navigation');
         this.events();
     }
 
     events() {
+        // arrow func to stop 'this' being referred to the button clicked
         this.menuIcon.addEventListener('click', () => this.toggleTheMenu());
     }
 
     toggleTheMenu() {
-        console.log('icon clicked, toggled');
+        this.navMenu.classList.toggle('navigation--is-visible')
     }
 }
 
