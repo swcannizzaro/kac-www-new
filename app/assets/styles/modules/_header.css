@@ -27,7 +27,8 @@
         height: 3.3rem;
         cursor: pointer;
 
-        &--top {
+        &::before {
+            content: '';
             position: absolute;
             top: 0;
             left: 0;
@@ -45,7 +46,8 @@
             background-color: $primary-color;
         }
 
-        &--bottom {
+        &::after {
+            content: '';
             position: absolute;
             bottom: 0;
             left: 0;
