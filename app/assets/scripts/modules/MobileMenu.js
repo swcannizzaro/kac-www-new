@@ -11,7 +11,7 @@ class MobileMenu {
     }
 
     toggleTheMenu() {
-        this.navMenu.classList.toggle('navigation--is-visible')
+        this.navMenu.classList.toggle('navigation--is-visible');
     }
 }
 
