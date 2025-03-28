@@ -1,9 +1,8 @@
 .header {
     padding: 7rem 0 0;
-    background-color: $black-color;
+    background-color: $dark-maroon-color;
     background-image: url('./assets/images/header-bg.jpg');
     background-attachment: fixed;
-    background-size: cover;
     background-position: top;
     color: $text-light-color;
     text-align: center;
@@ -13,6 +12,7 @@
 
     @mixin atMedium {
         padding: 6.3rem 0 0;
+        background-size: cover;
     }
 
     &__content {

@@ -80,9 +80,12 @@
             rgba(255, 255, 255, 0.99)),
         url('./assets/images/collage1-bw.jpg');
     background-attachment: fixed;
-    background-size: cover;
     border-top: 2px solid rgba(39, 39, 39, .08);
     border-bottom: 2px solid rgba(39, 39, 39, .08);
+
+    @mixin atMedium {
+        background-size: cover;
+    }
 }
 
 #contact {
