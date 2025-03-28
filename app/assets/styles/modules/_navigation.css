@@ -4,7 +4,7 @@
     backface-visibility: hidden;
     display: none;
     animation-name: fadeIn;
-    animation-duration: 0.54s;
+    animation-duration: 0.27s;
     animation-timing-function: ease-out;
 
     &--is-visible {
