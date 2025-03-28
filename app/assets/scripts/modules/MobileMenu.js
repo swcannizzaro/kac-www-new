@@ -9,7 +9,6 @@ class MobileMenu {
         // arrow func to stop 'this' being referred to the button clicked
         this.menuIcon.addEventListener('click', () => this.toggleTheMenu());
     }
-
     toggleTheMenu() {
         this.navMenu.classList.toggle('navigation--is-visible');
     }
