@@ -1,8 +1,10 @@
-import { throttle } from "lodash";
+import { throttle, debounce } from "lodash";
 
 class RevealOnScroll {
-    constructor() {
-        this.itemsToReveal = document.querySelectorAll('.showcase__group');
+    constructor(els, thresholdPercent) {
+        this.thresholdPercent = thresholdPercent;
+        this.itemsToReveal = els;
+        this.browserHeight = window.innerHeight;
         this.hideInitially();
         this.scrollThrottle = throttle(this.calcCaller, 200).bind(this);
         this.events();
@@ -10,10 +12,14 @@ class RevealOnScroll {
 
     events() {
         window.addEventListener('scroll', this.scrollThrottle);
+        window.addEventListener('resize', debounce(() => {
+                // console.log('resize just ran');
+                this.browserHeight = window.innerHeight;
+        }, 333));
     }
 
     calcCaller() {
-        console.log('scrolling func ran');
+        // console.log('scrolling func ran');
         this.itemsToReveal.forEach((el) => {
             if (el.isRevealed == false) {
                 this.calculateIfScrolledTo(el);
@@ -22,13 +28,15 @@ class RevealOnScroll {
     }
 
     calculateIfScrolledTo(el) {
-        console.log('element was calculated');
-        let scrollPercent = (el.getBoundingClientRect().top / window.innerHeight) * 100;
-        if (scrollPercent < 75) {
-            el.classList.add('reveal-items--is-visible');
-            el.isRevealed = true;
-            if (el.isLastItem) {
-                window.removeEventListener('scroll', this.scrollThrottle);
+        if (window.scrollY + this.browserHeight > el.offsetTop) {
+            // console.log('element was calculated');
+            let scrollPercent = (el.getBoundingClientRect().top / this.browserHeight) * 100;
+            if (scrollPercent < this.thresholdPercent) {
+                el.classList.add('reveal-items--is-visible');
+                el.isRevealed = true;
+                if (el.isLastItem) {
+                    window.removeEventListener('scroll', this.scrollThrottle);
+                }
             }
         }
     }
