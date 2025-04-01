@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,12 +20,19 @@
   },
   "homepage": "https://github.com/swcannizzaro/kac-www-new#readme",
   "dependencies": {
+    "css-minimizer-webpack-plugin": "^7.0.2",
     "lodash": "^4.17.21",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
     "autoprefixer": "^10.4.21",
+    "babel-loader": "^10.0.0",
     "css-loader": "^7.1.2",
+    "fs-extra": "^11.3.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
     "postcss-import": "^16.1.0",
     "postcss-loader": "^8.1.1",
     "postcss-mixins": "^11.0.3",
