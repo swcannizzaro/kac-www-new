@@ -4,7 +4,6 @@
     background-color: $black-color;
     background-image: url('./assets/images/footer-bg.jpg');
     background-attachment: fixed;
-    background-size: cover;
     background-position: top;
     color: $text-light-color;
     border-top: 4px double $primary-color;
@@ -12,6 +11,7 @@
 
     @mixin atMedium {
         padding: 6.3rem 0;
+        background-size: cover;
     }
 
     a:link,
