@@ -2,9 +2,11 @@ import '../styles/styles.css';
 import MobileMenu from './modules/MobileMenu';
 import RevealOnScroll from './modules/RevealOnScroll';
 import YearUpdater from './modules/YearUpdater';
+import ScrollToTop from './modules/ScrollToTop';
 
 let mobileMenu = new MobileMenu();
 let yearUpdater = new YearUpdater('current-year');
+let scrollToTopFunctionality = new ScrollToTop();
 
 new RevealOnScroll(document.querySelectorAll('.showcase__group'), 72);
 new RevealOnScroll(document.querySelectorAll('.collect__content-cta'), 63);
